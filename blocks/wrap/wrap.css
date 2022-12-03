@@ -1,0 +1,14 @@
+.wrap {
+  width: 984px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px){
+  .wrap {
+    max-width: 928px;
+  }
+}
+@media screen and (max-width: 760px){
+  .wrap {
+    width: 100%;
+  }
+}
