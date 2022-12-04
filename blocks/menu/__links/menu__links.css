@@ -1,0 +1,13 @@
+.menu__links:not(:last-child) {
+  margin-right: 18px;
+}
+
+@media screen and (max-width: 720px) {
+  .menu__links {
+    margin-right: 0;
+  }
+
+  .menu__links:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
